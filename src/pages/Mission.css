@@ -1,46 +1,62 @@
+.mission-content {
+  padding: 2rem 5%; 
+  background-color: white; 
+  padding-bottom: 5rem;
+}
+
 .mission-title {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .row {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .mission1, .mission2 {
-    flex: 1;
-    margin: 0 10px;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-  }
-  
-  .mission1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .vision-header {
-    margin-bottom: 10px;
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  
-  .mission-text {
-    font-size: 1.2rem;
-    line-height: 1.6;
-  }
-  
-  .mission-image {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    text-align: center;
-  }
-  
+  text-align: center;
+  font-size: 2.5vw; 
+  font-weight: bold;
+  margin-bottom: 2%; 
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5%; 
+}
+
+.mission1, .mission2 {
+  flex: 1;
+  margin: 0 2%;
+  padding: 3%; 
+  border-radius: 1%; 
+
+}
+
+.mission1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f0f0f0; 
+}
+
+.mission2 {
+  flex: 1.5;
+  justify-content: center;
+  align-items: center;
+  padding: 0; 
+  width: 100%;
+}
+
+.vision-header {
+  margin-bottom: 1%; 
+  font-size: 2vw;
+  text-align: center;
+}
+
+.mission-text {
+  font-size: 1.5vw; 
+  line-height: 1.6;
+}
+
+.mission-image {
+  height:50vh;
+  width:100%;
+  max-width: none;
+  border: none; 
+  border-radius: 0; 
+  display: block; 
+}
